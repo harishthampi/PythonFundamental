@@ -286,3 +286,26 @@ for item in some_list:
         if item not in result:
           result.append(item)
 print(result)
+
+
+# Function - def is the keyword for defining a function
+def hello ():
+  print('helloooooooooooooooooooooo')
+hello()
+
+# arguments means the values we pass to the function and parameters means the variables we use inside the function
+
+def say_hello(name): # name is the parameter
+  print(f'hello {name}')
+  
+say_hello('John') # John is the argument
+
+# positional arguments  - means the order of the arguments matters
+# keyword arguments - means the order of the arguments does not matter
+
+say_hello(name='Cena') # keyword arguments
+
+# default parameters - means the default value of the parameter is set 
+def say_hello(name = 'Kane'):  # default parameter
+  print(f'hello {name}')
+say_hello()
